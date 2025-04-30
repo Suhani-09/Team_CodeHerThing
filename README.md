@@ -22,6 +22,10 @@ Team CodeHerThing/
 ├── .gitignore
 ├── README.md
 
+Adding a Student:
+![Alt text](https://github.com/Tahsheen786/Team_CodeHerThing/blob/52d81fb7aa1551d26058ecb01d040e269c8260b0/frontend/public/Screenshot%202025-04-30%20225959.png)
+
+
 
 nstallation Steps
 🔹 Backend
