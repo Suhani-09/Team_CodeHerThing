@@ -1,7 +1,7 @@
 # **Team CodeHerThing - Member Management Web App**
 This is a MERN stack application that allows users to add, store, and view information about team members, including their name, roll number, degree, interests, and a profile image.
 <br><br>
-## 🔧 **Technologies Used**
+## **Technologies Used**
 **Frontend**: React.js, Axios, React Router
 
 **Backend**: Node.js, Express.js, Multer
@@ -64,7 +64,4 @@ Form Continued ..
 ![Alt text_2](https://github.com/Tahsheen786/Team_CodeHerThing/blob/0df8408c479ecf03421ba3e743c2f48b52d9b446/frontend/public/Screenshot%202025-04-30%20230342.png)
 <br><br>
 
-nstallation Steps
-🔹 Backend
-Navigate to the backend/ folder:
 
