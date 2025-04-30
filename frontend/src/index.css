@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+  background: #222;
+}
+
+.header {
+  background: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.container, .form, .details {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(0, 0, 0);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Set the whole page to be centered with black background */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: #121212; /* Dark background for modern feel */
+  color: rgb(0, 0, 0); /* Light text color for contrast */
+}
+
+/* Style the header */
+.header {
+  margin-bottom: 30px;
+  
+}
+
+h1 {
+  font-size: 48px;
+  color: #ff0000; /* Red color for the main title */
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #bbb; /* Light grey text for the subtitle */
+}
+
+/* Style the manage team section */
+.manage-team {
+  background-color: #1e1e1e; /* Slightly lighter black background for the container */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin-top: 40px;
+  width: 320px; /* A compact size for the container */
+  text-align: center;
+  border: 2px solid red; /* Add red border to containers */
+
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full height of viewport */
+  background-color: #121212; /* Optional: dark background for the full page */
+  padding-top: 100px; /* Adjust this based on your header height */
+
+}
+
+.form {
+  background-color: #1e1e1e; /* Slightly lighter black background for the container */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  width: 320px; /* Compact vertical rectangle */
+  text-align: center;
+  border: 2px solid red;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #333;
+  color: white;
+}
+
+.form textarea {
+  min-height: 80px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #aaa;
+}
+
+button {
+  background-color: #ff0000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+
+h3 {
+  color: #ff0000; /* Red for subheading */
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff0000; /* Red background for buttons */
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000; /* Darker red on hover */
+  transform: translateY(-3px); /* Slight lift effect on hover */
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Optional: Add some footer to the page */
+footer {
+  position: fixed;
+  bottom: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+/* Remove the blue underline from Link components */
+a {
+  text-decoration: none; /* Removes the underline */
+}
+
+/* Ensure buttons inside Link components look as expected */
+a button {
+  text-decoration: none; /* Prevent underline on buttons inside links */
+}
