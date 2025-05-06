@@ -1,4 +1,9 @@
+# Node modules directory
 node_modules/
+
+# Uploads directory (if used for uploaded files, images, etc.)
 uploads/
-.env
+
+# System-specific files
 .DS_Store
+
